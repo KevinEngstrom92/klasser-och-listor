@@ -128,13 +128,13 @@ namespace HampusChallenge
             Human Per = new Human("Per", 27, Gender.male);
             //Per.getHuman();                                                                       Användes för debug
 
-            Human Joanne = new Human("Johanna", 32, Gender.female);
+            Human Johanna = new Human("Johanna", 32, Gender.female);
             //Joanne.getHuman();                                                                    Användes för debug
 
             House Gata1 = new House(John, 1);
             Gata1.addHumanToHouse(Mary);
             House Gata2 = new House(Per, 2);
-            House Gata3 = new House(Joanne, 3);
+            House Gata3 = new House(Johanna, 3);
 
             //Gata1.getInhabitants(1);                                                              Användes för debug
 
